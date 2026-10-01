@@ -1,3 +1,5 @@
 fastapi
 uvicorn[standard]
 huggingface_hub
+mcp
+httpx
