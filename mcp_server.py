@@ -15,4 +15,4 @@ def check_wake() -> dict:
     return resp.json()
 
 if __name__ == "__main__":
-    mcp.run(transport="streamable-http", path="/mcp")
+    mcp.run(transport="streamable-http")
