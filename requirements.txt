@@ -1,5 +1,5 @@
 fastapi
 uvicorn[standard]
 huggingface_hub
-mcp<2
+mcp = FastMCP("kli-wake-engine", streamable_http_path="/mcp")
 httpx
